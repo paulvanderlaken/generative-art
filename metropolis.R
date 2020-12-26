@@ -1,4 +1,5 @@
-# Metropolis: Generative city visualisations
+# Metropolis
+# Based on Marcus Volz's generative city: https://marcusvolz.com/#generative-city
 
 library(ggplot2)
 options(scipen = 999)
