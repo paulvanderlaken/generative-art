@@ -116,7 +116,7 @@ generate_metropolis = function(seed,
   save_plot = function (p) {
     dir = 'output/metropolis'
     if (!dir.exists(dir)) {
-      dir.create(dit)
+      dir.create(dir)
     }
     files = list.files(dir)
     nrs = gsub('\\s?\\..+', '', files)
